@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+   <h3> Escolha sua jogada (Clique na imagem)</h3>
+   <img src="imagens/pedra.jpg" alt="pedra" onclick="play(1);">
+   <img src="imagens/papel.jpg" alt="papel" onclick="play(2);">
+   <img src="imagens/tesoura.jpg" alt="Tesoura" onclick="play(3);">
+
+   <div id="resultados" class="show">
+     <p id="score"> Placar </p>
+     <p id="lastRound"> Histórico de Ganhadores </p>
+   </div>
+  </body>
+</html>
